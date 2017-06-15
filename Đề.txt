@@ -1,0 +1,14 @@
+﻿Final_lab_6: (3.5đ)
+a.	(0.5đ) Đề xuất một cấu trúc dữ liệu(dùng struct hoặc class) để lưu thông tin của một Thí sinh gồm : mã số(chuỗi), tên(chuỗi), điểm 1, điểm 2 và điểm 3 (số thực)
+b.	(1đ) Xây dựng hàm nhận vào một mảng của N Thí sinh.Hàm tìm và trả về con trỏ đến thí sinh có điểm trung bình(của 3 điểm thành phần) cao nhất.
+Final_lab_7: (1.5đ)
+Xây dựng lớp String cho phép người lập trình thực hiện công việc như đoạn chương trình sau:
+
+int main(){
+	String str1(“THI KIEM TRA”);
+	String str2(“KTLT”);
+	cout << str1 + “ “ + str2;
+	return 0;
+}
+Đoạn chương trình trên cho phép tạo một đối tượng String và khởi động chuỗi ngay trong hàm khởi tạo. Yêu cầu: phải quản lý bộ nhớ của String bằng bộ nhớ động. Lớp String cũng cho phép in ra bằng toán tử, cũng như phép toán cộng
+(Lưu ý: Cần phải giải phóng bộ nhớ ở hàm huỷ).
